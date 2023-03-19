@@ -1,0 +1,123 @@
+name: mtgy_app
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  button_navigation_bar: ^0.1.3
+  google_fonts: ^4.0.3
+  flutter_rating_bar: ^4.0.1
+  comment_box: ^0.0.18
+  rating_dialog: ^2.0.1
+  store_redirect: ^2.0.1
+  percent_indicator: ^4.2.3
+  smooth_star_rating_null_safety: ^1.0.4+2
+  launch_review: ^3.0.1
+  google_maps_flutter: ^2.2.6
+  sizer: ^2.0.15
+  flutter_google_places: ^0.3.0
+  smooth_rating_bar: ^0.0.3
+  multiselect: ^0.1.0
+  geolocator: ^9.0.2
+  http: ^0.13.6
+  awesome_snackbar_content: ^0.1.2
+  multi_select_flutter: ^4.1.3
+  flutter_credit_card: ^3.0.6
+  provider: ^6.0.5
+  flutter_bloc: ^8.1.2
+  dio: ^5.1.2
+  conditional_builder_null_safety: ^0.0.6
+  shared_preferences: ^2.1.1
+  bloc: ^8.1.1
+  http_client: ^1.5.2
+  web_socket_channel: ^2.4.0
+  location: ^4.4.0
+  flutter_polyline_points: ^1.0.0
+  flutter_barcode_scanner: ^2.0.0
+  barcode_widget: ^2.0.1
+  google_nav_bar: ^5.0.6
+  animated_bottom_navigation_bar: ^1.2.0
+  custom_navigation_bar: ^0.8.2
+  fluttertoast: ^8.2.2
+  modal_progress_hud_nsn: ^0.4.0
+  image_picker: ^1.0.0
+  file_picker: ^5.3.2
+  flutter_verification_code: ^1.1.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/Logo_final.png
+    - assets/images/Logo_wfinal.png
+    - assets/images/graph.png
+    - assets/images/hotel.jpg
+    - assets/icons/heart.png
+    - assets/icons/heart_half.png
+    - assets/icons/heart_border.png
+    - assets/icons/user-avatar.png
+    - assets/images/elhytan.jpg
+    - assets/icons/vr.png
+    - assets/icons/email_icon.png
+    - assets/icons/pound.png
+    - assets/images/location_icon.png
+    - assets/map_style.json
+    - assets/icons/1.png
+    - assets/icons/PngItem_4037406.png
+    - assets/icons/icons8-show-password-80.png
+    - assets/icons/icon_proflie.png
+    - assets/icons/password.png
+    - assets/rive/1298-2487-animated-icon-set-1-color.riv
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
